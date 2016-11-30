@@ -1,0 +1,16 @@
+<!-- <app-todo-app></app-todo-app>
+<h1>Welcome to the Router Example</h1> -->
+<nav class="navbar navbar-inverse">
+    <!-- nav header/ branding -->
+    <div class="navbar-header">
+    <a class="navbar-brand" href="/">Organiser</a>
+    </div>
+    <!-- List containing nav links -->
+    <ul class="nav navbar-nav">
+    <li><a [routerLink]="['/']">Page1</a></li>
+    <li><a [routerLink]="['page2']">Page2</a></li>
+    <li><a [routerLink]="['/todo']">TodoApp</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
